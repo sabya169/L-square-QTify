@@ -6,16 +6,17 @@
     font-weight: 600;
     font-size: 32px;
     position: relative;
+    border-bottom: 1px rgb(39, 38, 38) solid;
 }
 .headphone{
     height: 212.5px;
     width: 212px;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 800px;
 }
 .text{
     position: absolute;
     left: 340px;
-    top: 100px;
+    top: 90px;
 }

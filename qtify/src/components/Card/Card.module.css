@@ -1,0 +1,35 @@
+.image{
+    width: 159px;
+    height: 170px;
+    /* object-fit: cover;
+    overflow: hidden;
+    object-position: center; */
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card_container{
+    width: 159px;
+    height: 205px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: var(--color-white);
+}
+.follows{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    
+}
+.follow_parent{
+    margin: 5px;
+    margin-left: 8px;
+}
+.image_text{
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+}
