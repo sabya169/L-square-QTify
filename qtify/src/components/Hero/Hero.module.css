@@ -1,0 +1,21 @@
+.hero{
+    background-color: var(--color-black);
+    height: 270px;
+    width: 100vw;
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 32px;
+    position: relative;
+}
+.headphone{
+    height: 212px;
+    width: 212px;
+    position: absolute;
+    top: 60px;
+    left: 800px;
+}
+.text{
+    position: absolute;
+    left: 340px;
+    top: 100px;
+}
