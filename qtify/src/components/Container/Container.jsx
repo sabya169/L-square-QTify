@@ -2,10 +2,21 @@ import React from 'react'
 import Card from '../../components/Card/Card'
 import styles from './Container.module.css'
 
-function Container() {
+function Container({songData}) {
+
+  
   return (
     <div className={styles.container}>
-      <Card />
+
+      {
+        songData.map((data)=>{
+          return(
+            <Card data={data} key={data.id}/>
+          )
+        })
+      }
+
+      
     </div>
   )
 }

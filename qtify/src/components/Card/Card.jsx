@@ -1,14 +1,15 @@
 import React from 'react'
 import styles from "./Card.module.css"
 
-function Card() {
+function Card({data}) {
+  console.log("data",data)
   return (
     <div>
       <div className={styles.card_container}>
-        <div><img className={styles.image} src={require("../../assets/song.jpeg")}/></div>
-        <div className={styles.follow_parent}><span className={styles.follows}>100M follows</span></div>
+        <div><img className={styles.image} src={data.image}/></div>
+        <div className={styles.follow_parent}><span className={styles.follows}>{data.likes} follows</span></div>
       </div>
-      <div className={styles.image_text}>New Bollywood</div>
+      <div className={styles.image_text}>{data.title}</div>
     </div>
   )
 }

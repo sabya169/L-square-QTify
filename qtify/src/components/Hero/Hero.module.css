@@ -5,18 +5,21 @@
     color: var(--color-white);
     font-weight: 600;
     font-size: 32px;
-    position: relative;
-    border-bottom: 1px rgb(39, 38, 38) solid;
+    /* position: relative; */
+    /* border-bottom: 1px rgb(39, 38, 38) solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .headphone{
     height: 212.5px;
     width: 212px;
-    position: absolute;
-    top: 40px;
-    left: 800px;
+    /* position: absolute; */
+    /* top: 40px; */
+    /* left: 800px; */
 }
 .text{
-    position: absolute;
-    left: 340px;
-    top: 90px;
+    /* position: absolute; */
+    /* left: 340px; */
+    /* top: 90px; */
 }
