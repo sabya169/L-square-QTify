@@ -1,0 +1,11 @@
+.accordion{
+    /* width: 50vw; */
+    display: flex;
+    justify-content: center;
+    
+}
+.heading{
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+}

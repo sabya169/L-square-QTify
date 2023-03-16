@@ -1,8 +1,17 @@
 .container{
     margin: 20px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 40px;
     row-gap: 40px;
+}
+.heading{
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#collapse{
+    color: var(--color-primary);
 }

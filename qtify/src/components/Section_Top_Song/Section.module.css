@@ -1,0 +1,22 @@
+.wrapper{
+    color: var(--color-white);
+    display:flex;
+    justify-content: space-between;
+}
+.cardContainer{
+    
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+.sectionContainer{
+    margin: 30px;
+}
+.showAll{
+    color: var(--color-primary);
+    cursor: pointer;
+}
+.carousel{
+    margin-top: 8px;
+}
