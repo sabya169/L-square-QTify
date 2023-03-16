@@ -22,7 +22,8 @@ function AccordionElement() {
               bgcolor: "var(--color-black)",
               border:"1px solid var(--color-white)",
               borderRadius:"7px !important",
-              overflow:"hidden !important"
+              overflow:"hidden !important",
+              width:"700px"
             }}
           >
             <AccordionSummary

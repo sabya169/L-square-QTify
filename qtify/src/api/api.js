@@ -4,6 +4,8 @@ import axios from "axios";
 
 // https://qtify-backend-labs.crio.do/albums/new
 
+// https://qtify-backend-labs.crio.do/songs
+
 const BCAKEND_URL = "https://qtify-backend-labs.crio.do";
 
 export const fetchTopSongs = async () => {
@@ -25,3 +27,14 @@ export const fetchNewSongs = async ()=>{
     console.log(error)
   }
 }
+
+export const fetchAllSongs = async ()=>{
+  try{
+    const response = await axios.get(`${BCAKEND_URL}/songs`)
+    // console.log(response.data)
+    return response.data ;
+  }catch(error){
+    console.log(error)
+  }
+}
+
